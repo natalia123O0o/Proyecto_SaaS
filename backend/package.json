@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "eslint": "^10.10.0",
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "googleapis": "^181.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.1",
+    "stripe": "^22.6.2"
+  }
+}
